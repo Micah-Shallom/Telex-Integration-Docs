@@ -6,7 +6,7 @@ sidebar_position: 1
 
 Telex supports **outbound**, **inbound**, and **bidirectional** custom integrations, enabling seamless communication with third-party systems. Outbound integrations send data from Telex to external services, inbound integrations receive data into Telex, and bidirectional integrations handle both sending and receiving data.
 
-To create a custom integration on Telex, you must set up the integration on your server and provide a **target URL** for Telex to send data to your server.
+To create a custom integration on Telex, you must set up the integration on your server and provide a **target URL** for Telex to send data to your app or integration.
 
 ### Integration Creation Process
 
@@ -131,8 +131,10 @@ Here’s the updated JSON configuration object with the new settings field:
 }
 ````
 
+It is important to note that setting the default field in settings has to be a value in the options array. The settings field is used to configure the integration settings on the Telex dashboard. The target URL is the endpoint where Telex sends data to your integration.
 
-Send this JSON object to the Telex server for processing. Once the integration is created, activate it by following the guide on [Activate Custom Integrations](/docs/Getting%20-%20Started/activate_custom.md). After activation, the integration can send and receive messages via its specified target URL and settings.
+
+Sending the data as a JSON object to the Telex server for processing. Once the integration is created, activate it by following the guide on [Activate Custom Integrations](/docs/Getting%20-%20Started/activate_custom.md). After activation, the integration can send and receive messages via its specified target URL and settings.
 
 ---
 

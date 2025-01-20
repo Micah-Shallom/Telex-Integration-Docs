@@ -1,4 +1,4 @@
-# Slack Integration for Telex
+# Slack
 
 ## Overview
 

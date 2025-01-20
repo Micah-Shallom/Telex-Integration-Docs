@@ -1,4 +1,4 @@
-# APM Integration for Telex
+# APM
 
 ## Overview
 

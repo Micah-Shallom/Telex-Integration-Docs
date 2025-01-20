@@ -1,4 +1,4 @@
-# Uptime Monitor Integration for Telex
+# Uptime Monitor
 
 ## Overview
 

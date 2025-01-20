@@ -15,13 +15,12 @@ Custom integrations in Telex enable tailored workflows by connecting with third-
    Select **Add Integration** to begin setting up a custom integration. This page provides details about the integration and how to use it with Telex.
 
 3. **Enter Integration Settings**  
-   Provide the configuration details required for the custom integration you are creating.
+   Provide the configuration details required for the custom integration you are creating. Majorly what needs to be provided it the json configuration file that will be used to configure the integration on the Telex dashboard.
 
 4. **Authorize Access**  
    Follow the prompts to sign in to your third-party account and complete the connection process. Additional information may be needed depending on the integration.
 
 ### Manage Custom Integrations
-
 Once your custom integration is active, manage its configuration and operation through the Telex dashboard.
 
 #### Manage Input/Output Integrations
